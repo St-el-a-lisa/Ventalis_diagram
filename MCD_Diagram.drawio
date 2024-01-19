@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T11:07:07.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MxFuHLlh23Db7pW_gJQ9" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T11:12:21.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="23RVyRI1fUJZYcHpWUcZ" version="22.1.18" type="github">
   <diagram id="-cj11i8ElzjxEUUUS1FS" name="Page-1">
     <mxGraphModel dx="1805" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -344,7 +344,7 @@
             <mxPoint x="200.16" y="-860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cWcVKITDj5nMCINKGUTs-89" value="classer" style="swimlane;gradientColor=none;rounded=1;startSize=55;" vertex="1" parent="1">
+        <mxCell id="cWcVKITDj5nMCINKGUTs-89" value="classify" style="swimlane;gradientColor=none;rounded=1;startSize=55;" vertex="1" parent="1">
           <mxGeometry x="390" y="-605" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-90" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -395,8 +395,8 @@
         <mxCell id="cWcVKITDj5nMCINKGUTs-104" value="0...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="205" y="-30" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cWcVKITDj5nMCINKGUTs-105" value="1." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="-442" width="30" height="30" as="geometry" />
+        <mxCell id="cWcVKITDj5nMCINKGUTs-105" value="1...1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-442" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-106" value="1..n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="128" width="40" height="30" as="geometry" />
@@ -448,6 +448,15 @@
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-125" value="Stock_create_at" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="135" y="724" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cWcVKITDj5nMCINKGUTs-127" value="0...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="-602" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cWcVKITDj5nMCINKGUTs-128" value="0...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="-602" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cWcVKITDj5nMCINKGUTs-129" value="0...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-312" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
