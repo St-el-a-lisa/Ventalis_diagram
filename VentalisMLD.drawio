@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T20:50:01.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="m5cuSj3cVhmMZMdJtQ_y" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T20:51:51.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fQi2jyRHVQOgE9HSoKwM" version="22.1.21" type="github">
   <diagram name="Page-1" id="9lptGY3JfKgQoynIDlKW">
-    <mxGraphModel dx="1527" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1667" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-19" value="Stock" style="swimlane;rounded=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="830" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="57ZAFF70KlD8jZ9FpLFW-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ id : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ quantity : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ product_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ expire_date : date&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ created_at : datetime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ update_at : datetime&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-19">
+        <mxCell id="57ZAFF70KlD8jZ9FpLFW-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ id : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ quantity : int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ product_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ expire_date : date&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ created_at : datetime&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-19">
           <mxGeometry x="26" y="45" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-25" value="User" style="swimlane;rounded=0;gradientColor=none;" vertex="1" parent="1">
@@ -250,8 +250,8 @@
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-100" value="1...1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="205" y="801" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="57ZAFF70KlD8jZ9FpLFW-101" value="1...1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="207" y="700" width="50" height="30" as="geometry" />
+        <mxCell id="57ZAFF70KlD8jZ9FpLFW-101" value="1...*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="700" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-103" value="0...*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="568" y="450" width="40" height="30" as="geometry" />
@@ -323,7 +323,7 @@
             <mxRectangle x="600" y="160" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="57ZAFF70KlD8jZ9FpLFW-146" value="+ id : int&lt;br&gt;+ adress_id&lt;br&gt;+ user_id&lt;br&gt;+ order_id&lt;br&gt;+ shipping_price : float&lt;br&gt;+ shipping_date : datetime&lt;br&gt;+ delivery_status : string&lt;br&gt;+ Carrier ?: string&lt;br&gt;+ Traking_number : string&lt;br&gt;+ Shipping_method : string&lt;br&gt;+ Shipping_notes : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-145">
+        <mxCell id="57ZAFF70KlD8jZ9FpLFW-146" value="+ id : int&lt;br&gt;+ adress_id&lt;br&gt;+ user_id&lt;br&gt;+ order_id&lt;br&gt;+ shipping_price : float&lt;br&gt;+ shipping_date : date&lt;br&gt;+ delivery_status : string&lt;br&gt;+ Carrier ?: string&lt;br&gt;+ Traking_number : string&lt;br&gt;+ Shipping_method : string&lt;br&gt;+ Shipping_notes : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-145">
           <mxGeometry x="24" y="27" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-155" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.1;exitY=1.267;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
