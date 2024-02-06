@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T18:41:54.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="7nl5D_XXok12sc9dvXNL" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T23:10:30.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uzzMVjNYMoH_zwTPYvoU" version="22.1.21" type="github">
   <diagram name="Page-1" id="9lptGY3JfKgQoynIDlKW">
-    <mxGraphModel dx="1551" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1994" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -251,8 +251,8 @@
             <mxRectangle x="600" y="160" width="80" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="57ZAFF70KlD8jZ9FpLFW-146" value="+ id : int&lt;br&gt;+ adress_id&lt;br&gt;+ user_id&lt;br&gt;+ order_id&lt;br&gt;+ shipping_price : float&lt;br&gt;+ shipping_date : date&lt;br&gt;+ delivery_status : string&lt;br&gt;+ Carrier ?: string&lt;br&gt;+ Traking_number : string&lt;br&gt;+ Shipping_method : string&lt;br&gt;+ Shipping_notes : string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-145">
-          <mxGeometry x="24" y="27" width="170" height="170" as="geometry" />
+        <mxCell id="57ZAFF70KlD8jZ9FpLFW-146" value="+ id : int&lt;br&gt;+ adress_id&lt;br&gt;+ user_id&lt;br&gt;+ order_id&lt;br&gt;+ shippingPrice : float&lt;br&gt;+ shippingDate : date&lt;br&gt;+ deliveryStatus : string&lt;br&gt;+ trakingNumber: string&lt;br&gt;+ ShippingMethod : string&lt;br&gt;+ ShippingNotes ?: string" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="57ZAFF70KlD8jZ9FpLFW-145">
+          <mxGeometry x="24" y="32" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="57ZAFF70KlD8jZ9FpLFW-155" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.1;exitY=1.267;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
