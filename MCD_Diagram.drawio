@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T20:57:37.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="s7b02Tn4iN02BOx5kvXT" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T21:34:49.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5c6_gmMWsaYNyo0g9hns" version="22.1.21" type="github">
   <diagram id="-cj11i8ElzjxEUUUS1FS" name="Page-1">
-    <mxGraphModel dx="2600" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1850" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,13 +521,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-152" value="Shipping_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
-          <mxGeometry x="51" y="35" width="90" height="30" as="geometry" />
+          <mxGeometry x="62" y="52" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-153" value="Shipping_price" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
-          <mxGeometry x="40" y="61" width="100" height="30" as="geometry" />
+          <mxGeometry x="52" y="82" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-155" value="Shipping_date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
-          <mxGeometry x="37" y="87" width="100" height="30" as="geometry" />
+          <mxGeometry x="50" y="112" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-168" value="Shipping_method" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
           <mxGeometry x="37" y="202" width="120" height="30" as="geometry" />
@@ -535,11 +535,8 @@
         <mxCell id="cWcVKITDj5nMCINKGUTs-167" value="Traking_number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
           <mxGeometry x="42" y="172" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cWcVKITDj5nMCINKGUTs-169" value="Shipping_notes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
-          <mxGeometry x="40" y="140" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-156" value="Delivery_status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-151" vertex="1">
-          <mxGeometry x="40" y="110" width="110" height="30" as="geometry" />
+          <mxGeometry x="40" y="142" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-157" value="Have" style="swimlane;gradientColor=none;rounded=1;startSize=35;" parent="1" vertex="1">
           <mxGeometry x="849" y="40" width="170" height="90" as="geometry" />
