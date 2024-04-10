@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T19:35:44.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="K-pC0SUWOLgi359dNSUc" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T20:57:49.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="NWiAjtohCVowdZ5QYcUP" version="24.2.2" type="github">
   <diagram id="-cj11i8ElzjxEUUUS1FS" name="Page-1">
     <mxGraphModel dx="1900" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -313,25 +313,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-69" value="Review" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="-359" y="180" width="200" height="188" as="geometry" />
+          <mxGeometry x="-359" y="180" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-70" value="Review_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-69" vertex="1">
           <mxGeometry x="51" y="28" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-71" value="Review_content" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-69" vertex="1">
-          <mxGeometry x="45" y="100" width="110" height="30" as="geometry" />
+          <mxGeometry x="45" y="128" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-138" value="Review_updated_at" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-69" vertex="1">
-          <mxGeometry x="42" y="150" width="130" height="30" as="geometry" />
+          <mxGeometry x="41" y="179" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mZCI9TJTcMSbe3HsYHLz-22" value="Review_rating" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cWcVKITDj5nMCINKGUTs-69">
           <mxGeometry x="51" y="50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mZCI9TJTcMSbe3HsYHLz-23" value="Review_created_at" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cWcVKITDj5nMCINKGUTs-69">
-          <mxGeometry x="42" y="124" width="130" height="30" as="geometry" />
+          <mxGeometry x="42" y="153" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cWcVKITDj5nMCINKGUTs-139" value="Review_author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-69" vertex="1">
-          <mxGeometry x="51" y="76" width="100" height="30" as="geometry" />
+        <mxCell id="cWcVKITDj5nMCINKGUTs-139" value="Review_title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cWcVKITDj5nMCINKGUTs-69" vertex="1">
+          <mxGeometry x="53" y="101" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWcVKITDj5nMCINKGUTs-78" value="Management" style="swimlane;gradientColor=none;rounded=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="130" y="450" width="140" height="80" as="geometry" />
@@ -765,6 +765,9 @@
         </mxCell>
         <mxCell id="mZCI9TJTcMSbe3HsYHLz-24" value="Comment_is_published" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-166" y="-444" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mZCI9TJTcMSbe3HsYHLz-25" value="Review_author" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-308" y="256" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
